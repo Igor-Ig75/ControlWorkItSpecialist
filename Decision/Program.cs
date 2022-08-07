@@ -30,16 +30,14 @@ void ArrayOfStrings(string[] array1, string[] array2)
     Console.Write("[ ");
     for (int i = 0; i < array1.Length; i++)
     {
-        if(array1[i].Length <= 3)                           
-        {                                              
-            Console.Write(array2[count] = array1[i] + " ");   
-            count++; 
-        }                                  
+        if(array1[i].Length <= 3)                      
+            Console.Write(array2[count] = array1[i] + " ");
+        count++;                                
     }
     Console.Write("]");
 }
 
-string[] arr1 = {"hello", "243", "world", ":-)", "-99", "+"};
+string[] arr1 = {"243", "hello", "world", ":-)", "-99", "+"};
 string[] arr2 = new string[arr1.Length];
 
 PrintArray(arr1);
