@@ -32,7 +32,7 @@ void ArrayOfStrings(string[] array1, string[] array2)
     {
         if(array1[i].Length <= 3)                      
             Console.Write(array2[count] = array1[i] + " ");
-        count++;                                
+            count++;                                
     }
     Console.Write("]");
 }
